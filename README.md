@@ -26,8 +26,8 @@ do texto do campo DS_OBJETO, aplicando técnicas clássicas como tokenização, 
 
 Para complementar a análise textual, foi feito um clusterizador baseado em [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) e em um modelo [Word2Vec](https://en.wikipedia.org/wiki/Word2vec) treinado em cima do corpo de texto considerando cada entrada do campo DS_OBJETO como um documento.
 
-Infelizmente, devido à minha inexperiência com modelos 
-NLP, o formato do conjunto de dados utilizados e a 
+Infelizmente, acredito que devido ao formato do 
+conjunto de dados utilizados e a 
 falta de tempo para fazer uma varredura de 
 hiper-parâmetros e algoritmos de clusterização como 
 K-Means, Brown clustering, além de algoritmos de 
