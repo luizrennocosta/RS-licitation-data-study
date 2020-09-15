@@ -68,7 +68,9 @@ relação forte com as datas da eleição.
 ![rolling_count](images/rolling_window_vl_licitacao_mean.png)
 
 O atraso entre homologação e abertura de uma licitação (DT_DELTA_HOMOLOG) também apresenta um comportamento cíclico.
+
 ![rolling_homolog](images/rolling_window_dt_delt_homolog.png)
+
 NOTA: O gráfico acima está em escala de **dias**
 
 
