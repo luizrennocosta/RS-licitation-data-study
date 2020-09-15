@@ -26,13 +26,6 @@ do texto do campo DS_OBJETO, aplicando técnicas clássicas como tokenização, 
 
 Para complementar a análise textual, foi feito um clusterizador baseado em [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) e em um modelo [Word2Vec](https://en.wikipedia.org/wiki/Word2vec) treinado em cima do corpo de texto considerando cada entrada do campo DS_OBJETO como um documento.
 
-Infelizmente, acredito que devido ao formato do 
-conjunto de dados utilizados e a 
-falta de tempo para fazer uma varredura de 
-hiper-parâmetros e algoritmos de clusterização como 
-K-Means, Brown clustering, além de algoritmos de 
-_embedding_ como N-Gram, Bag-Of-Words, etc.
-
 O modelo do Word2Vec foi o escolhido pois ele 
 possui uma forte capacidade de mapeamento devido
 a sua base em redes neurais e é capaz de relacionar 
@@ -61,8 +54,7 @@ aparecimento da Central de Licitações do Estado.
 Além disso, uma análise temporal mostra uma forte 
 sazonalidade (que não foi investigada além do que está 
 ilustrado abaixo). Onde é possível ver que o início do 
-ano normalmente é quando as coisas acontecem, 
-esfriando as atividades. Também aparenta não ter uma 
+ano normalmente possui uma maior quantidade de licitações, que vão diminuindo ao longo do tempo. Também aparenta não ter uma 
 relação forte com as datas da eleição.
 
 ![rolling_count](images/rolling_window_vl_licitacao_mean.png)
