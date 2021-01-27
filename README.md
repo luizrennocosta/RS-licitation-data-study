@@ -1,4 +1,4 @@
-# Desafio Data Science Brigade
+# Desafio de estudo de dados de licitação e compras
 -------
 
 ## Introdução
